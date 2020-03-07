@@ -11,9 +11,9 @@ function App() {
 <Router>
   <div>
 
-      <Route path="/" component={NavTab}/>
-      <Route path="/" component={Main}/>
+      {/* <Route path="/" component={NavTab}/> */}
       <Route path="/" component={Instructions}/>
+      <Route path="/" component={Main}/>
       
   </div>
 </Router>

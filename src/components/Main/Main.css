@@ -7,14 +7,12 @@
   color: #0070bf;
 }
 
-p{
-    text-align: center;
-    font-family: "sans-serif";
-    color: #0070bf;
-
+p {
+  text-align: center;
+  font-family: "sans-serif";
+  color: #0070bf;
 }
 
 .gameScores {
-    font-size: 25px;
-    
+  font-size: 25px;
 }

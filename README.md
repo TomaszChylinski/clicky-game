@@ -1,49 +1,48 @@
-# News-That-Fits-To-Scrape
+# T.C. Clicky Game
 
 ### Overview
 
-Using express, mongoose, cheerio, and axios in the background, this application creates a user interface that scrapes https://www.nytimes.com/section/technology. The application pulls up to date information including headlines, summaries, links for the top latest articles nytimes/technology has to offer.
+The T.C. Clicky Game is a react application, that renders mulitple images that the user is able to click on. The game is build for the purpose to allow users to click on any image of their choice. Once an image is clicked the application will automatically re organize all images. For the user to continue to win he/she must make sure not to click on the same image they previously clicked on.  
 
 ### How To Access:
 
  -- Locally
 
-To download the application onto your own machine please use https://github.com/TomaszChylinski/news-thats-fit-to-scrape.git.
+To download the application onto your own machine please use https://github.com/TomaszChylinski/clicky-game.git.
 
-* Once cloned onto your machine, open the terminal of your choice to the following directory news-thats-fit-to-scrape.
+* Once cloned onto your machine, open the terminal of your choice to the following directory clicky-game .
 * Run npm install (installs all dependecies)
-* In your mongo terminal create news-that-fit database
 * Run npm start to start the application locally
-* Visit your localhost please keep attention to the port you are using
+* If the page doesn't open automatically please visit your localhost, see your terminal for the approriate port.
 
 
-<img src="./public/assets/images/news-that-fits-1.PNG">
+<img src="src/public/images/clicky-game-1.PNG>
 
 -- Online
 
-Please visit www.heroku.com (update link once its up on heroku)
+* <a href="https://tomaszchylinski.github.io/clicky-game/">https://tomaszchylinski.github.io/clicky-game/</a>
 
-# How to scrape for new articles
+# How To Get Started
 
-* If starting off from a blank database, the user will see a blank page before they scrape for articles
-
-
-<img src="./public/assets/images/news-that-fits-2.PNG">
-
-* The user may initalize the scrape by clicking on "Get New Articles" found on the top nav
+* To get started click on one of the images available on the screen.
 
 
+<img src="./src/public/images/clicky-game-1.PNG>
 
-<img src="./public/assets/images/news-that-fits-3.PNG">
-
-* Once clicked the magic behind the scenses will kick off. This process might take a few seconds, once complete the user will be taken to the scrape page where upon a succeessful scrape they will be informed. 
-
-
-<img src="./public/assets/images/news-that-fits-4.PNG">
-
-* Now once the user redirects themselves back to http://localhost:3000/ they will now see their updated articles served up on the page. 
-
-<img src="./public/assets/images/news-that-fits-5.PNG">
+* Once cliced the user will notice that the images have been randomly re organized
 
 
-Thank you for viewing my news-that-fits-to-scrape for any question please feel to visit my portfolio <a href="https://tomaszchylinski.github.io/chylinski-tomasz-portfolio/index.html">page</a>
+# User Wins
+
+* The continue to increase their score the user has to made sure they don't click on the image they previously selected. The user will be alarmed if they succesfully gained a point. 
+
+<img src="./src/public/images/clicky-game-1.PNG>
+
+# User Looses
+
+* If the user selects the same image twice, their score will be reset back to 0. The user will be alarmed of their mistake. 
+
+<img src="./src/public/images/clicky-game-2.PNG>
+
+
+Thank you for viewing my T.C. Clicky Game for any question please feel free to visit my portfolio <a href="https://tomaszchylinski.github.io/chylinski-tomasz-portfolio/index.html">page</a>

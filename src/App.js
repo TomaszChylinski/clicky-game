@@ -1,23 +1,16 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
+import React from "react";
 
-import Main from './components/pages/Main';
-import Instructions from './components/pages/Instructions'
+import "./App.css";
 
-
-function App() {
-  return (
-<Router>
-  <div>
+import Intro from "./components/Intro";
+import Main from "./components/Main";
 
 
-      <Route path="/" component={Instructions}/>
-      <Route path="/" component={Main}/>
-      
+const App = () => (
+  <div className="container-fluid mainContainer">
+    <Intro/>
+    <Main /> 
   </div>
-</Router>
-  );
-}
+);
 
 export default App;

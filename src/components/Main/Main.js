@@ -6,7 +6,7 @@ import "./Main.css";
 class Main extends Component {
 	state = {
 		images,
-		message: "Click one of the logos to begin!",
+		message: "Click on one of the players to start the game! Just don't click twice!",
 		score: 0,
 		topScore: 0
 	};

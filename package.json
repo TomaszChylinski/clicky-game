@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tomaszchylinski.github.io/clicky-game/",
+  "homepage": "https://tomaszchylinski.github.io/clicky-game",
   //  "https://tomaszchylinski.github.io/clicky-game/"
   "name": "clicky-game",
   "version": "0.1.0",
@@ -13,7 +13,7 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
-    "predeploy": "nom run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
